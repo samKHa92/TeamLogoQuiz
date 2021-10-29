@@ -33,6 +33,10 @@ class QuestionQuizActivity : AppCompatActivity(), View.OnClickListener {
             mQuestionList = Constants.getSpainQuestions()
         }
 
+        if (intent.getStringExtra("league").toString() == "premierleague"){
+            mQuestionList = Constants.getEnglandQuestions()
+        }
+
         setQuestion()
 
         tv_option_one.setOnClickListener(this)
