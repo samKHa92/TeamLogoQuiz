@@ -64,7 +64,7 @@ class SelectLeagueActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.iv_seriea -> {
                 val intent = Intent(this, QuestionQuizActivity::class.java)
-                intent.putExtra("player", et_name.text.toString())
+                intent.putExtra("player", player)
                 intent.putExtra("league", "seriea")
                 startActivity(intent)
                 finish()

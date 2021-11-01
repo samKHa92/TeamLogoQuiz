@@ -37,6 +37,12 @@ class QuestionQuizActivity : AppCompatActivity(), View.OnClickListener {
             mQuestionList = Constants.getEnglandQuestions()
         }
 
+        if (intent.getStringExtra("league").toString() == "seriea"){
+            mQuestionList = Constants.getItalyQuestions()
+        }
+
+        mQuestionList!!.shuffle()
+
         setQuestion()
 
         tv_option_one.setOnClickListener(this)
@@ -46,6 +52,7 @@ class QuestionQuizActivity : AppCompatActivity(), View.OnClickListener {
 
         btn_submit.setOnClickListener(this)
     }
+
 
     private fun setQuestion() {
         val question = mQuestionList!![mCurpos - 1]

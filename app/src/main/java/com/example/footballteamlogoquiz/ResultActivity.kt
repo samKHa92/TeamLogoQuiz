@@ -18,7 +18,7 @@ class ResultActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
-        tv_player.text = intent.getStringExtra("player")
+        tv_player.text = intent.getStringExtra("player") +": "
         if (intent.getStringExtra("league").toString() == "laliga") {
             tv_score.text = intent.getIntExtra("score", 0).toString() + "/20"
 

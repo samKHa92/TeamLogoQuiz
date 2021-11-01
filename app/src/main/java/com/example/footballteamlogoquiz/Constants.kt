@@ -253,6 +253,257 @@ object Constants {
 
 
 
+    fun getItalyQuestions(): ArrayList<Question> {
+        val questionList = ArrayList<Question>()
+
+        val Score: String = "0"
+
+        val que1 = Question(
+            1,
+            "Which team uses this badge?",
+            R.drawable.atalanta,
+            "Atalanta",
+            "Cagliari",
+            "Spezia",
+            "Milan",
+            1
+        )
+        questionList.add(que1)
+
+        val que2 = Question(
+            2,
+            "Which team uses this badge?",
+            R.drawable.bologna,
+            "Fiorentina",
+            "Bologna",
+            "Genoa",
+            "Empoli",
+            2
+        )
+        questionList.add(que2)
+
+        val que3 = Question(
+            3,
+            "Which team uses this badge?",
+            R.drawable.cagliari,
+            "Lazio",
+            "Juventus",
+            "Milan",
+            "Cagliari",
+            4
+        )
+        questionList.add(que3)
+
+        val que4 = Question(
+            4,
+            "Which team uses this badge?",
+            R.drawable.empoli,
+            "Lazio",
+            "Empoli",
+            "Inter Milan",
+            "Spezia",
+            2
+        )
+        questionList.add(que4)
+
+        val que5 = Question(
+            5,
+            "Which team uses this badge?",
+            R.drawable.fiorentina,
+            "Lazio",
+            "Fiorentina",
+            "Napoli",
+            "Salernitana",
+            2
+        )
+        questionList.add(que5)
+
+        val que6 = Question(
+            6,
+            "Which team uses this badge?",
+            R.drawable.genoa,
+            "Bologna",
+            "Juventus",
+            "Genoa",
+            "Milan",
+            3
+        )
+        questionList.add(que6)
+
+        val que7 = Question(
+            7,
+            "Which team uses this badge?",
+            R.drawable.inter,
+            "Inter Milan",
+            "Milan",
+            "Juventus",
+            "Spezia",
+            1
+        )
+        questionList.add(que7)
+
+        val que8 = Question(
+            8,
+            "Which team uses this badge?",
+            R.drawable.juventus,
+            "Sassuolo",
+            "Roma",
+            "Napoli",
+            "Juventus",
+            4
+        )
+        questionList.add(que8)
+
+        val que9 = Question(
+            9,
+            "Which team uses this badge?",
+            R.drawable.lazio,
+            "Inter Milan",
+            "Roma",
+            "Lazio",
+            "Hellas Verona",
+            3
+        )
+        questionList.add(que9)
+
+        val que10 = Question(
+            10,
+            "Which team uses this badge?",
+            R.drawable.milan,
+            "Venezia",
+            "Milan",
+            "Roma",
+            "Torino",
+            2
+        )
+        questionList.add(que10)
+
+        val que11 = Question(
+            11,
+            "Which team uses this badge?",
+            R.drawable.napoli,
+            "Napoli",
+            "Spezia",
+            "Venezia",
+            "Udinese",
+            1
+        )
+        questionList.add(que11)
+
+        val que12 = Question(
+            12,
+            "Which team uses this badge?",
+            R.drawable.roma,
+            "Lazio",
+            "Roma",
+            "Udinese",
+            "Spezia",
+            2
+        )
+        questionList.add(que12)
+
+        val que13 = Question(
+            13,
+            "Which team uses this badge?",
+            R.drawable.salernitana,
+            "Roma",
+            "Saleranitana",
+            "Juventus",
+            "Sampdoria",
+            2
+        )
+        questionList.add(que13)
+
+        val que14 = Question(
+            14,
+            "Which team uses this badge?",
+            R.drawable.sampdoria,
+            "Sampdoria",
+            "Saleranitana",
+            "Lazio",
+            "Milan",
+            1
+        )
+        questionList.add(que14)
+
+        val que15 = Question(
+            15,
+            "Which team uses this badge?",
+            R.drawable.sassuolo,
+            "Roma",
+            "Cagliari",
+            "Bologna",
+            "Sassuolo",
+            4
+        )
+        questionList.add(que15)
+
+        val que16 = Question(
+            16,
+            "Which team uses this badge?",
+            R.drawable.spezia,
+            "Sampdoria",
+            "Sassuolo",
+            "Spezia",
+            "Venezia",
+            3
+        )
+        questionList.add(que16)
+
+        val que17 = Question(
+            17,
+            "Which team uses this badge?",
+            R.drawable.torino,
+            "Juventus",
+            "Torino",
+            "Cagliari",
+            "Hellas Verona",
+            2
+        )
+        questionList.add(que17)
+
+        val que18 = Question(
+            18,
+            "Which team uses this badge?",
+            R.drawable.udinese,
+            "Lazio",
+            "Inter Milan",
+            "Udinese",
+            "venezia",
+            3
+        )
+        questionList.add(que18)
+
+        val que19 = Question(
+            19,
+            "Which team uses this badge?",
+            R.drawable.venezia,
+            "Hellas Verona",
+            "Udinese",
+            "Venezia",
+            "Bologna",
+            3
+        )
+        questionList.add(que19)
+
+        val que20 = Question(
+            20,
+            "Which team uses this badge?",
+            R.drawable.verona,
+            "Sassuolo",
+            "Hellas Verona",
+            "Lazio",
+            "Sampdoria",
+            2
+        )
+        questionList.add(que20)
+
+
+
+        return questionList
+    }
+
+
     fun getEnglandQuestions(): ArrayList<Question> {
         val questionList = ArrayList<Question>()
 
