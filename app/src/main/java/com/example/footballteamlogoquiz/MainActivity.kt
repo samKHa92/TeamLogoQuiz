@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         btn_start.setOnClickListener {
             if (et_name.text.toString().isEmpty()) {
-                Toast.makeText(this, "Please enter you Jerk_id", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Please enter you name", Toast.LENGTH_SHORT).show()
             } else {
                 val intent = Intent(this, SelectLeagueActivity::class.java)
                 intent.putExtra("player", et_name.text.toString())

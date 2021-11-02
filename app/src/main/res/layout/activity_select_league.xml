@@ -34,15 +34,37 @@
             android:layout_marginTop="16dp"
             android:src="@drawable/mix" />
 
-        <TextView
-            android:id="@+id/tv_mix"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:id="@+id/ll_progress_details_mix"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:gravity="center"
-            android:text="Mix: 100 Clubs"
-            android:textColor="@android:color/white"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progressBar_mix"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:indeterminate="false"
+                android:max="100"
+                android:minHeight="50dp"
+                android:progress="90"
+                android:progressBackgroundTint="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/tv_progress_mix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="15dp"
+                android:text="0/100"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -68,15 +90,37 @@
                 android:layout_marginTop="6dp"
                 android:src="@drawable/seriea" />
 
-            <TextView
-                android:id="@+id/tv_seriea"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:id="@+id/ll_progress_details_seriea"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:gravity="center"
-                android:text="20 Clubs"
-                android:textColor="@android:color/white"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:orientation="horizontal">
+
+                <ProgressBar
+                    android:id="@+id/progressBar_seriea"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:indeterminate="false"
+                    android:max="20"
+                    android:minHeight="50dp"
+                    android:progress="15"
+                    android:progressBackgroundTint="@android:color/white"/>
+
+                <TextView
+                    android:id="@+id/tv_progress_seriea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="15dp"
+                    android:text="0/20"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -95,15 +139,37 @@
                 android:layout_marginTop="6dp"
                 android:src="@drawable/bundesliga" />
 
-            <TextView
-                android:id="@+id/tv_bundesliga"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:id="@+id/ll_progress_details_bundesliga"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:gravity="center"
-                android:text="18 Clubs"
-                android:textColor="@android:color/white"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:orientation="horizontal">
+
+                <ProgressBar
+                    android:id="@+id/progressBar_bundesliga"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:indeterminate="false"
+                    android:max="20"
+                    android:minHeight="50dp"
+                    android:progress="15"
+                    android:progressBackgroundTint="@android:color/white"/>
+
+                <TextView
+                    android:id="@+id/tv_progress_bundesliga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="15dp"
+                    android:text="0/20"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -122,15 +188,37 @@
                 android:layout_marginTop="6dp"
                 android:src="@drawable/ligue1" />
 
-            <TextView
-                android:id="@+id/tv_ligue1"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:id="@+id/ll_progress_details_ligue1"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:gravity="center"
-                android:text="20 Clubs"
-                android:textColor="@android:color/white"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:orientation="horizontal">
+
+                <ProgressBar
+                    android:id="@+id/progressBar_ligue1"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:indeterminate="false"
+                    android:max="20"
+                    android:minHeight="50dp"
+                    android:progress="15"
+                    android:progressBackgroundTint="@android:color/white"/>
+
+                <TextView
+                    android:id="@+id/tv_progress_ligue1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="15dp"
+                    android:text="0/20"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
@@ -155,15 +243,37 @@
             android:layout_margin="6dp"
             android:layout_marginTop="6dp"
             android:src="@drawable/laliga" />
-            <TextView
-                android:id="@+id/tv_laliga"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:id="@+id/ll_progress_details_laliga"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:gravity="center"
-                android:text="20 Clubs"
-                android:textColor="@android:color/white"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:orientation="horizontal">
+
+                <ProgressBar
+                    android:id="@+id/progressBar_laliga"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:indeterminate="false"
+                    android:max="20"
+                    android:minHeight="50dp"
+                    android:progress="15"
+                    android:progressBackgroundTint="@android:color/white"/>
+
+                <TextView
+                    android:id="@+id/tv_progress_laliga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="15dp"
+                    android:text="0/20"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -181,15 +291,38 @@
             android:layout_margin="6dp"
             android:layout_marginTop="6dp"
             android:src="@drawable/premierleague" />
-            <TextView
-                android:id="@+id/tv_premierleague"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:id="@+id/ll_progress_details_premierleague"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:gravity="center"
-                android:text="20 Clubs"
-                android:textColor="@android:color/white"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:orientation="horizontal">
+
+                <ProgressBar
+                    android:id="@+id/progressBar_premierleague"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:indeterminate="false"
+                    android:max="20"
+                    android:minHeight="50dp"
+                    android:progress="15"
+                    android:progressBackgroundTint="@android:color/white"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_progress_premierleague"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="15dp"
+                    android:text="0/20"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 

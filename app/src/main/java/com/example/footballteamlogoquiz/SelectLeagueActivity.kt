@@ -15,6 +15,8 @@ class SelectLeagueActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_select_league)
 
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+
         iv_bundesliga.setOnClickListener(this)
         iv_mix.setOnClickListener(this)
         iv_laliga.setOnClickListener(this)

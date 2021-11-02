@@ -18,6 +18,8 @@ class ResultActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+
         tv_player.text = intent.getStringExtra("player") +": "
         if (intent.getStringExtra("league").toString() == "laliga") {
             tv_score.text = intent.getIntExtra("score", 0).toString() + "/20"

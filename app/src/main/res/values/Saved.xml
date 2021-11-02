@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <user>
+        <name>samKHa</name>
+        <mix>0</mix>
+        <laliga>13</laliga>
+        <premierleague>5</premierleague>
+        <seriea>0</seriea>
+        <ligue1>8</ligue1>
+        <bundesliga>14</bundesliga>
+    </user>
+    <user>
+        <name>Khotcho</name>
+        <mix>3</mix>
+        <laliga>12</laliga>
+        <premierleague>5</premierleague>
+        <seriea>1</seriea>
+        <ligue1>8</ligue1>
+        <bundesliga>14</bundesliga>
+    </user>
+    <user>
+        <name>Nuguchi</name>
+        <mix>17</mix>
+        <laliga>0</laliga>
+        <premierleague>5</premierleague>
+        <seriea>0</seriea>
+        <ligue1>0</ligue1>
+        <bundesliga>0</bundesliga>
+    </user>
+</resources>

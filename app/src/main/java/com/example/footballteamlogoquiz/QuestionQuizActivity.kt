@@ -25,6 +25,8 @@ class QuestionQuizActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_question_quiz)
 
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+
         league = intent.getStringExtra("league").toString()
         player = intent.getStringExtra("player").toString()
 
@@ -41,7 +43,7 @@ class QuestionQuizActivity : AppCompatActivity(), View.OnClickListener {
             mQuestionList = Constants.getItalyQuestions()
         }
 
-        mQuestionList!!.shuffle()
+//        mQuestionList!!.shuffle()
 
         setQuestion()
 
